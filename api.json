@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/lusca",
     "maintainers": [
       {
@@ -16,72 +16,125 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "lusca",
     "name": "Lusca",
-    "aliases": [],
-    "category": "SEA_CRYPTID",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Giant Bahamian octopus", "region": "Bahamas" },
+      { "name": "Him of the hairy hands", "region": "Bahamas / Caribbean folklore" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Marine cryptid (giant octopus)",
+    "tags": [
+      "cryptid",
+      "marine",
+      "octopus",
+      "bahamas",
+      "blue-hole",
+      "andros",
+      "caribbean"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "The Lusca is a legendary Caribbean sea cryptid described as a massive octopus-shark hybrid creature said to inhabit the blue holes of the Bahamas and surrounding waters.",
-      "full": "The Lusca is a legendary Caribbean sea cryptid described as a massive octopus-shark hybrid creature said to inhabit the blue holes of the Bahamas and surrounding waters. Witnesses describe an enormous cephalopod with tentacles reaching 75-200 feet in length, capable of changing color, creating powerful whirlpools, and allegedly attacking boats, divers, and swimmers. The creature is particularly associated with ocean blue holes—underwater sinkholes and cave systems that create dangerous tidal currents and whirlpools."
+      "summary": "The Lusca is a marine cryptid of Bahamian and Caribbean folklore, said to inhabit the blue holes of Andros Island and surrounding waters. It is most often described as a gigantic octopus or a half-octopus, half-shark or half-dragon hybrid, and is blamed locally for the deaths of swimmers, divers and small craft drawn into blue-hole tidal currents.",
+      "full": "The Lusca is a marine cryptid reported from the Caribbean, primarily around the blue holes of Andros Island in The Bahamas. The name appears to be a clipped form of Mollusca, the phylum of cephalopods, reflecting the creature's tentacled aspect; folklore variously describes it as a gigantic octopus, a giant cuttlefish or a hybrid of octopus and shark, sometimes octopus and dragon. Reported sizes are exaggerated — up to and beyond 23 metres (75 feet) — well exceeding any documented octopus species. The creature's habitat is closely tied to blue holes: vertical underwater sinkholes and cave systems common around Andros (which has more than 170 inland and 50 oceanic blue holes) that are 100–120 metres deep on average and produce powerful tidal currents and whirlpools as the tide changes. Local tradition explains drownings, lost dinghies and missing divers around blue holes as the work of the Lusca. The Canadian wildlife biologist Bruce S. Wright was among the first researchers to document the legend, after a guide on Andros described a 'half-octopus, half-dragon' creature with sucker-tipped tentacles inhabiting limestone caverns beneath an inland blue hole; Wright suggested a giant octopus or rare giant squid. The French cryptozoologist Michel Raynal has proposed that the Lusca might represent an unusually large cirrate octopus, noting a 1984 French submersible (Cyana) record of an undescribed Pacific cirrate octopus measuring about 2.5 m. Television journalist Jeremy Wade investigated the Lusca for River Monsters ('Terror in Paradise', S8E4), concluding that a large octopus is the most plausible candidate behind the legend."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Bahamian English; widely interpreted as a shortened form of Mollusca, the phylum to which octopuses and squids belong.",
+      "meaning": "'Mollusc' (clipped) — i.e. the tentacled marine creature.",
+      "first_use": "Documented in 20th-century Bahamian oral tradition; brought into English-language cryptozoology in the mid-20th century by Bruce S. Wright."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "SEA_CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Marine cryptid",
+      "subtype": "Giant octopus / cephalopod",
+      "variant": "Bahamian (Andros blue holes)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kraken", "name": "Kraken", "relationship": "similar", "description": "Norse legendary giant cephalopod often invoked as a parallel for the Lusca" },
+      { "id": "st-augustine-monster", "name": "St. Augustine Monster", "relationship": "related", "description": "Carcass of a marine creature found in Florida in 1896, sometimes argued to be a giant octopus" },
+      { "id": "giant-squid", "name": "Giant squid (Architeuthis)", "relationship": "related", "description": "Documented giant cephalopod sometimes invoked as a candidate explanation for the Lusca" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark", "colour-shifting (per folklore)"],
+      "features": [
+        { "feature": "Multiple long tentacles", "description": "Folklore describes tentacles of extraordinary length, sometimes claimed to reach 75 feet or more, with sucker-tipped tips capable of dragging swimmers and small boats", "frequency": "always" },
+        { "feature": "Massive body", "description": "Reported as far larger than any known octopus species; size claims regularly exceed any biological precedent", "frequency": "always" },
+        { "feature": "Octopus-shark hybrid morphology", "description": "Some accounts describe a chimera with octopus tentacles and a shark- or dragon-like head", "frequency": "occasional" }
+      ],
+      "morphology": "Generally cephalopod-like, with the body plan of a giant octopus or cuttlefish, occasionally chimeric. Reported sizes are not biologically supported by any known cephalopod species."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Whirlpool generation", "description": "Folklore credits the Lusca with creating powerful whirlpools at blue-hole openings; in reality, blue holes generate strong tidal currents independently of any animal", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Drowning attacks on swimmers and divers", "description": "Local tradition attributes blue-hole drownings, lost dinghies and missing divers to Lusca attacks", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["blue holes (oceanic and inland)", "limestone cave systems", "banana holes (inland brackish pools)", "Bahamian and wider Caribbean reefs"],
+      "patterns": [
+        "Associated with tidal-current 'breathing' of blue holes (water rushing in and out with tide)",
+        "Reports cluster on Andros Island, Bahamas",
+        "Attacks framed as ambushes from cave openings"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Lusca legends are concentrated on Andros Island, Bahamas, and extend through the Bahamas and the wider Caribbean wherever blue holes and cave systems exist.",
+      "continents": ["North America", "Caribbean"],
+      "countries": ["Bahamas"],
+      "regions": ["Andros Island", "Bahamas Banks", "Caribbean Sea"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Andros Island blue holes",
+        "location": {
+          "description": "Andros Island, Bahamas — over 170 inland blue holes and 50 oceanic blue holes",
+          "country": "Bahamas",
+          "region": "Andros",
+          "coordinates": { "latitude": 24.4333, "longitude": -77.9667 }
+        },
+        "peak_period": "20th century–present",
+        "notes": "Centre of Lusca folklore; subject of Bruce Wright's mid-20th-century documentation and Jeremy Wade's River Monsters investigation."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "20th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Bahamian oral tradition documented in the mid-20th century by Bruce S. Wright"
+      },
+      "peak_activity_periods": [
+        { "period": "Mid-20th century", "description": "Bruce S. Wright's documentation introduces the Lusca into English-language cryptozoology" },
+        { "period": "2010s", "description": "Renewed attention through television (River Monsters, 2016) and popular cryptid media" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Bahamian and wider Caribbean folk explanation for the dangers of blue holes — especially the strong tidal currents that draw water and objects in and out of vertical cave systems on Andros Island.",
+      "earliest_accounts": "Local Bahamian oral tradition predates published documentation. The earliest English-language cryptozoological documentation comes from Canadian wildlife biologist Bruce S. Wright, who heard accounts of the Lusca from a guide on Andros in the mid-20th century.",
+      "folklore_connections": "Connected to broader Caribbean and Atlantic giant-cephalopod traditions (the Norse Kraken, the 1896 St. Augustine Monster, and Architeuthis-based 'giant squid' lore)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1900-01-01", "event": "Bahamian oral tradition of the Lusca is well established and continuously transmitted", "significance": "Cultural baseline for the legend", "source": "Wikipedia, Lusca; PSICAN, Lusca Blue Hole Mystery" },
+      { "date": "1984-01-01", "event": "The French submersible Cyana films an undescribed Pacific cirrate octopus measuring approximately 2.5 m, providing a real-world reference point for unusually large cirrate octopuses", "significance": "Cited by Michel Raynal as relevant to evaluating Lusca size claims", "source": "Wikipedia, Lusca" },
+      { "date": "2016-04-01", "event": "Jeremy Wade investigates the Lusca for River Monsters in the episode 'Terror in Paradise' (Season 8, Episode 4)", "significance": "High-profile mainstream televised investigation", "source": "Wikipedia, Lusca" }
+    ],
+    "modern_era": "The Lusca remains a central figure in Bahamian folklore and Caribbean cryptozoology, periodically featured in television and online cryptid media. No specimen, photograph, or DNA evidence supporting a Lusca-sized cephalopod has been produced; the legend is sustained by the genuine danger and topographic strangeness of Andros's blue holes."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +145,110 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "lusca-evidence-wright-account",
+        "type": "field interview",
+        "name": "Bruce S. Wright Andros account",
+        "date": "Mid-20th century",
+        "description": "Canadian wildlife biologist Bruce S. Wright recorded an account from an Andros guide describing a 'half-octopus, half-dragon' creature with sucker-tipped tentacles inhabiting limestone caverns beneath an inland blue hole.",
+        "status": "unverified",
+        "analysis": "Wright suggested a giant octopus or rare giant squid as a possible explanation; the account remains second-hand and unverified.",
+        "source": "Wikipedia, Lusca"
+      },
+      {
+        "id": "lusca-evidence-river-monsters",
+        "type": "documentary",
+        "name": "River Monsters — 'Terror in Paradise'",
+        "date": "2016",
+        "description": "Jeremy Wade's investigation into Lusca-attributed disappearances in Bahamian blue holes, considering reef sharks, tiger sharks, and giant Pacific octopuses before settling on a large octopus as the most plausible candidate.",
+        "status": "unverified",
+        "analysis": "Television-grade investigation, not peer-reviewed; provides a useful summary of candidate explanations.",
+        "source": "Wikipedia, Lusca"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Giant octopus / giant squid",
+        "description": "The Lusca represents an unusually large octopus or, less commonly, a giant squid (Architeuthis), with reported sizes exaggerated by folklore.",
+        "proponents": ["Bruce S. Wright", "Jeremy Wade"],
+        "evidence_cited": ["Documented giant octopus and giant squid species", "Lusca's tentacled morphology in Bahamian accounts", "1984 Cyana submersible record of a 2.5 m Pacific cirrate octopus"]
+      },
+      {
+        "name": "Giant cirrate octopus",
+        "description": "French cryptozoologist Michel Raynal has proposed that the Lusca might represent an unusually large cirrate octopus, citing the 1984 Cyana submersible record of an undescribed Pacific cirrate octopus around 2.5 m.",
+        "proponents": ["Michel Raynal"],
+        "evidence_cited": ["Cyana 1984 record (~2.5 m cirrate octopus)", "Cirroteuthis records up to ~1.5 m"]
+      },
+      {
+        "name": "Blue-hole hydrology, not a creature",
+        "description": "Many Lusca-attributed events — drownings, lost boats, sudden whirlpools — are produced by the genuine tidal currents of blue holes rather than by any animal.",
+        "proponents": ["Marine geologists and divers"],
+        "evidence_cited": ["Andros has more than 170 inland and 50 oceanic blue holes averaging 100–120 m deep", "Documented strong tidal exchanges at blue-hole openings"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folkloric explanation for hazardous waters",
+        "description": "The Lusca is best understood as a Bahamian folk explanation for the genuine but mundane dangers of blue holes — strong currents, sharks, and isolated drowning incidents — magnified in oral tradition.",
+        "proponents": ["Mainstream folklore commentators"],
+        "evidence_cited": ["No specimen, photograph or DNA evidence produced", "Reported sizes vastly exceed biological precedent for any known cephalopod"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Bahamian Andros Island blue-hole folklore",
+        "Wider Caribbean sea-monster tradition"
+      ],
+      "stories": [
+        "Inland blue-hole 'banana hole' Lusca lairs (Wright account)",
+        "Lusca-attributed disappearances of dinghies and divers"
+      ],
+      "beliefs": "Many Andros residents historically treated the Lusca as a real and dangerous local animal, framing blue-hole drownings and lost boats as Lusca attacks; the belief continues to shape local respect for blue-hole hydrology."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "film_tv": [
+        "River Monsters — 'Terror in Paradise' (Animal Planet, S8E4, 2016)",
+        "Various cryptid-television episodes featuring Bahamian blue holes"
+      ],
+      "games": [
+        "Stranded Deep features an enemy creature called 'Lusca the Great'"
+      ],
+      "other": [
+        "Lusca Fantastic Film Fest, Puerto Rico (named in part for the legendary creature)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Bruce S. Wright", "affiliation": "Canadian wildlife biologist", "contribution": "Among the first to document Lusca accounts in English-language cryptozoological literature; hypothesised a giant octopus or rare giant squid", "period": "Mid-20th century" },
+      { "name": "Michel Raynal", "affiliation": "French cryptozoologist", "contribution": "Proposed a giant cirrate-octopus interpretation of the Lusca", "period": "Late 20th century–present" },
+      { "name": "Jeremy Wade", "affiliation": "Television journalist (River Monsters)", "contribution": "Mainstream televised investigation concluding a large octopus is the most plausible candidate", "period": "2010s" }
+    ],
+    "organizations": [
+      { "name": "Bahamas Caves Research Foundation / Andros blue-hole research projects", "focus": "Scientific exploration of Andros blue holes that incidentally bears on Lusca claims" }
+    ],
+    "ongoing_studies": "Continuing scientific exploration of Bahamian blue-hole biology and hydrology by cave-diving researchers; cryptozoological work on the Lusca is largely literature-based."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-lusca", "type": "website", "title": "Lusca", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lusca", "accessed": "2026-05-07" },
+    { "id": "psican-lusca", "type": "website", "title": "Lusca Blue Hole Mystery in the Bahamas", "publication": "Paranormal Studies and Inquiry Canada (PSICAN)", "url": "http://psican.org/index.php/cryptozoology/544-lusca-blue-hole-mystery-in-the-bahamas", "accessed": "2026-05-07" }
+  ]
 }
